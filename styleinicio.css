@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+* body {
+  overflow-x: hidden;
+}
+
+* body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  background-color: #09001B;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* body header h1 {
+  background-color: #09001B;
+  color: white;
+}
+
+* body header h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+* body header div.barra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+  padding-right: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* body header div.barra ul {
+  height: 50px;
+  width: 100%;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* body header div.barra ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* body header div.barra ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+* body header div.barra ul li a:hover {
+  background-color: grey;
+}
+
+* body main {
+  background-image: url(./fondo.png) !important;
+}
+
+* body main div.primerpost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* body main div.primerpost p.principio {
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: white;
+}
+
+* body main div.primerpost iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* body main div.primerpost p.info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+
+* body main div.posts {
+  border: white;
+  border-style: solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  margin-right: 80px;
+}
+
+* body main div.posts div.post1 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+* body main div.posts img {
+  height: 160px;
+}
+
+* body main div.posts2 {
+  border: white;
+  border-style: solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  margin-right: 80px;
+}
+
+* body main div.posts2 div.post2 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+* body main div.posts2 img {
+  height: 120px;
+}
+
+* body main div.posts3 {
+  border: white;
+  border-style: solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  margin-right: 80px;
+}
+
+* body main div.posts3 div.post3 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+* body main div.posts3 img {
+  height: 120px;
+}
+
+* body footer {
+  background-color: #143B69;
+}
+
+* body footer div.piedepagina img {
+  height: 80px;
+}
+
+* body footer div.piedepagina p {
+  color: white;
+  text-decoration: underline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* body footer div.piedepagina ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+/*# sourceMappingURL=styleinicio.css.map */
