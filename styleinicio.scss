@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin:0;
+    
+    & body{
+        font-family: 'Tomorrow', sans-serif;
+        overflow-x: hidden;
+        & header{
+            display: flex;
+            width: 100vw;
+            background-color:#09001B;
+            justify-content: space-between;
+            & h1{
+                background-color:#09001B;
+                color: white;
+                & a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            & div.barra{
+                display: flex;
+                width: 20%;
+                padding-right:40px ;
+                justify-content: center;
+                align-items: center;
+
+                & ul{
+                    height: 50px;
+                    width: 100%;
+
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    & li{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        & a{
+                        color:white;
+                        text-decoration: none;
+                            &:hover{
+                                background-color: grey;
+                            }
+
+                        }
+                    }
+                        
+                    }
+                }
+            }
+        & main{
+            background-image: url(./fondo.png)  !important;
+            & div.primerpost{
+                display: flex;
+                justify-content: center;
+                color: white;
+                align-items: center;
+                flex-direction: column;
+                
+                & p.principio{
+                    text-align:center;
+                    text-decoration-line: underline;
+                    color: white;
+                }
+                & iframe{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                & p.info{
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                    text-align: center;
+                    color: white;
+                    
+                    
+                }
+            
+            }
+            & div.posts{
+                border: white;
+                border-style: solid;
+               display: flex;
+               justify-content: space-between;
+               margin-left: 80px;
+               margin-bottom: 40px;
+               margin-right: 80px;
+            & div.post1{
+                margin-left: 30px;
+                margin-right: 30px;
+                
+               & h2{
+                &:hover{
+                    color:cyan;
+                }
+               }
+               & p{
+
+               }
+            }   
+               & img{
+                   height: 160px;
+               }
+            }
+            & div.posts2{
+                border: white;
+                border-style: solid;
+               display: flex;
+               justify-content: space-between;
+               margin-left: 80px;
+               margin-bottom: 40px;
+               margin-right: 80px;
+            & div.post2{
+                margin-left: 30px;
+                margin-right: 30px;
+                
+               & h2{
+                &:hover{
+                    color:cyan;
+                }
+               }
+               & p{
+
+               }
+            }   
+               & img{
+                   height: 120px;
+               }
+            }
+            & div.posts3{
+                border: white;
+                border-style: solid;
+               display: flex;
+               justify-content: space-between;
+               margin-left: 80px;
+               margin-bottom: 20px;
+               margin-right: 80px;
+            & div.post3{
+                margin-left: 30px;
+                margin-right: 30px;
+                
+               & h2{
+                &:hover{
+                    color:cyan;
+                }
+               }
+               & p{
+
+               }
+            }   
+               & img{
+                   height: 120px;
+               }
+            }
+        }
+
+        & footer{
+            background-color:#143B69;
+            & div.piedepagina{
+
+                & img{
+                    height: 80px;
+                
+                }
+                & p{
+                    color: white;
+                    text-decoration: underline;
+                    display: flex;
+                    
+                }
+                & ul{
+
+                    & li{
+
+                        & a{
+                            display: flex;
+                            justify-content: center;
+                            text-decoration: none;
+                            color:white;
+                            font-size: 30px;
+                            
+                        }
+                    }
+                }
+            }
+            
+        }
+
+    }
+}
